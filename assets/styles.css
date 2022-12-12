@@ -24,6 +24,7 @@ h2 {
     right: 30%; 
     z-index: 1;
 }
+
 #cart .hoverText::after {
     content: " ";
     position: absolute;

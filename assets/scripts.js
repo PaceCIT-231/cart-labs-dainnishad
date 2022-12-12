@@ -18,6 +18,7 @@ function addToCart(cookie) {
 document.getElementById("cartItems").innerHTML = itemcount
 
    //add the correct price to the currentPrice variable
+   
 if (cookie =="peanut butter") {
     currentPrice = currentPrice + 20
 } else if (cookie == "sandies") {
