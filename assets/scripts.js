@@ -30,6 +30,7 @@ currentPrice = currentPrice + 35
 document.querySelector(".hoverText").innerHTML = currentPrice
 
 console.log(currentPrice)
+
 }
 
 function checkout() {
