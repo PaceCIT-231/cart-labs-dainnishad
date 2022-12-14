@@ -11,13 +11,12 @@
 
 <body>
     <header>
-        <button id="darkmode" onclick="darkmode()">Dark Mode</button>
-        
+        <button id="darkmode" onclick="darkMode()">Dark Mode</button>
         <h1>All the Nice Things</h1>
         <div id="cart">
             <img src="assets/imgs/cart.png">
             <span class="hoverText">$0</span>
-            <p id="cartItems">&nbsp;</p>
+            <p id="cartItems">0</p>
             <button id="checkout" onclick="checkout()">Checkout Now</button>
         </div>
     </header>
@@ -45,11 +44,11 @@
             <p>$35</p>
             <button onclick="addToCart('party press')">Add to Cart</button>
         </section>
-        
         <section class="tile">
             <img src="assets/imgs/chocolatechip.jpg">
             <h3>Chocolate Chip</h3>
             <p></p>Chocolate chip cookies with walnuts are soft and chocolatey.</p>
+            
             <p>$25</p>
             <button onclick="addToCart('chocolate chip')">Add to Cart</button>
         </section>

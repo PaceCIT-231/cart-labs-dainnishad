@@ -24,7 +24,6 @@ h2 {
     right: 30%; 
     z-index: 1;
 }
-
 #cart .hoverText::after {
     content: " ";
     position: absolute;
@@ -34,6 +33,7 @@ h2 {
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent white transparent;
+    
 }
 #cart:hover .hoverText {
     visibility: visible;
