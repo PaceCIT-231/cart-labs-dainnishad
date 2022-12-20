@@ -52,6 +52,11 @@ function checkout() {
     document.querySelector(".hoverText").innerHTML = cart.currentPrice
     console.log(cart)
     document.getElementById("cartItems").innerHTML= cart.items.length
+    cart.clear()
+    document.querySelector(".hoverText").innerHTML = cart.currentPrice
+    console.log(cart)
+    document.getElementById("cartItems").innerHTML= cart.items.length
+
 }
 
 
@@ -59,3 +64,13 @@ function darkMode() {
 	document.querySelector("body").style.backgroundColor="navy"
     document.querySelector("body").style.color="white"
 }
+
+
+function clearCart() {
+
+    document.querySelector(".hoverText").innerHTML = cart.currentPrice
+    console.log(cart)
+    document.getElementById("cartItems").innerHTML= cart.items.length
+}
+
+clearcart.addEventListener("mousedown", clearCart)
